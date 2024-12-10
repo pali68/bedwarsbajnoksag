@@ -1,1 +1,32 @@
+# Python általános fájlok
+__pycache__/
+*.py[cod]
+*.pyo
+*.env
 
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Editorok és IDE-k által létrehozott fájlok
+.vscode/
+.idea/
+*.swp
+
+# Operációs rendszer fájlai
+.DS_Store
+Thumbs.db
+
+# PyInstaller által létrehozott fájlok
+dist/
+build/
+*.spec
+
+# Log fájlok
+*.log
+
+# Output fájlok
+*.xlsx
+config.json
